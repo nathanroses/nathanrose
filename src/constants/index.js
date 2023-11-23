@@ -16,7 +16,9 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    rosedevelopment,
+    mocha,
+    theleadingedge,
     tesla,
     toolsunited,
     shopify,
@@ -24,6 +26,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    therosa,
   } from "../assets";
   
   export const navLinks = [
@@ -118,9 +121,9 @@ import {
   const experiences = [
     {
       title: "Full Stack Developer",
-      company_name: "Tools United ",
+      company_name: "Tools United",
       icon: toolsunited,
-      iconBg: "#383E56",
+      iconBg: "#E6DEDD",
       date: "March 2018 - April 2020",
       points: [
         "Managed and strengthened Germany-US relations, facilitating effective communication and collaboration between teams across these regions.",
@@ -131,75 +134,63 @@ import {
     },
     {
       title: "Full Stack Development",
-      company_name: "Wizza",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      company_name: "Mocha",
+      icon: mocha,
+      iconBg: "#383E56",
+      date: "May 2020 - December 2020",
+      points: [  "Collaborating with teams in the development of virtual reality applications, focusing on apps for MetaMask.", 
+     "Playing a key role in the integration of VR technologies with existing web platforms.",  
+      "Leading initiatives to integrate cutting-edge technology in web applications.",  
+      "Providing expert insights into emerging technologies, specifically in the VR space."],
     },
     {
       title: "CTO",
       company_name: "The Leading Edge",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      icon: theleadingedge,
+      iconBg: "#E6DEDD",
+      date: "Jan 2021 - May 2023",
+      points: [  "Spearheading the development of a full-stack e-commerce website, showcasing over 100 products.",  
+      "Driving significant growth in the company's online presence through innovative web solutions.", 
+       "Leading the charge in keeping the company at the forefront of technology, ensuring adaptability and relevance in a rapidly evolving tech landscape.", 
+       "Focusing on digital transformation strategies to enhance customer experience and operational efficiency."],
     },
     {
       title: "CEO",
       company_name: "Rose Developement",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      icon: rosedevelopment,
+      iconBg: "#383E56",
+      date: "May 2023 - Present",
+      points: [  "Establishing and leading a company focused on modernizing websites and applications to meet current industry standards.",  "Designing and developing bespoke websites, tailoring solutions to client needs.",  "Consulting with various companies on innovation in technology, guiding them in leveraging new tech trends.",  "Committing to continuous learning and adoption of new technologies to provide clients with cutting-edge web solutions."],
     },
   ];
   
   const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+      testimonial: "Nathan's work on our website was quick and efficient. Truly impressed with the outcome!",
+      name: "Emma Clarke",
       designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      company: "Brighton Goods",
+      image: "https://randomuser.me/api/portraits/women/24.jpg",
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+      testimonial: "Nathan’s design sense is remarkable. Our site has never looked better.",
+      name: "Aaron Lee",
       designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      company: "Oakdale Industries",
+      image: "https://randomuser.me/api/portraits/men/18.jpg",
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+      testimonial: "Impressed with Nathan's commitment to meeting our needs. Great job on the website revamp!",
+      name: "Rachel Tan",
       designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      company: "RiverTech",
+      image: "https://randomuser.me/api/portraits/women/29.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Wizza",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -220,9 +211,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Mocha",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A full SaaS Program that Enables Buisness Owners to Create Dashboards Specialized for each Company",
       tags: [
         {
           name: "react",
@@ -241,9 +232,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Room Time",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A new take on finding roomates using the same formula as dating apps we use this to now launch our new platform to find roomates.",
       tags: [
         {
           name: "nextjs",
@@ -259,6 +250,27 @@ import {
         },
       ],
       image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Therosa",
+      description:
+        "A comprehensive platform that allows users purchase high ticket items through our full stack deploment application.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: therosa,
       source_code_link: "https://github.com/",
     },
   ];

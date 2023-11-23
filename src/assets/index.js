@@ -26,10 +26,14 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import toolsunited from "./company/toolsunited.png"
+import rosedevelopment from "./company/rosedevelopment.png"
+import theleadingedge from "./company/theleadingedge.png"
+import mocha from "./company/mocha.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import therosa from "./therosa.png";
 
 export {
   logo,
@@ -61,4 +65,8 @@ export {
   jobit,
   tripguide,
   toolsunited,
+  rosedevelopment,
+  theleadingedge,
+  therosa,
+  mocha,
 };
