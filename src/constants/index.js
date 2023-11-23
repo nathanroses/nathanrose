@@ -130,8 +130,8 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Full Stack Development",
+      company_name: "Wizza",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
@@ -143,8 +143,8 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "CTO",
+      company_name: "The Leading Edge",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
@@ -156,8 +156,8 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "CEO",
+      company_name: "Rose Developement",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
