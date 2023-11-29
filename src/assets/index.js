@@ -30,9 +30,9 @@ import rosedevelopment from "./company/rosedevelopment.png"
 import theleadingedge from "./company/theleadingedge.png"
 import mocha from "./company/mocha.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import rose from "./rose.png";
+import leading from "./leading.png";
+import united from "./united.png";
 import therosa from "./therosa.png";
 
 export {
@@ -69,4 +69,7 @@ export {
   theleadingedge,
   therosa,
   mocha,
+  rose,
+  leading,
+  united,
 };

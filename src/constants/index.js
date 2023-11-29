@@ -133,8 +133,8 @@ import {
       ],
     },
     {
-      title: "Full Stack Development",
-      company_name: "Mocha",
+      title: "Full Stack Developer",
+      company_name: "T-Style",
       icon: mocha,
       iconBg: "#383E56",
       date: "May 2020 - December 2020",
@@ -190,9 +190,9 @@ import {
   
   const projects = [
     {
-      name: "Wizza",
+      name: "Tools United",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that is tailord to the mold making industry. It allows users to search for tools and materials that are used in the industry.",
       tags: [
         {
           name: "react",
@@ -207,11 +207,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: united,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Mocha",
+      name: "Quill",
       description:
         "A full SaaS Program that Enables Buisness Owners to Create Dashboards Specialized for each Company",
       tags: [
@@ -232,12 +232,11 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Room Time",
+      name: "Rose Development",
       description:
-        "A new take on finding roomates using the same formula as dating apps we use this to now launch our new platform to find roomates.",
-      tags: [
-        {
-          name: "nextjs",
+        "This is the website I created for my software development company. It is a full stack website that is built with NextJS and Supabase.",
+       tags: [ 
+        { name: "nextjs",
           color: "blue-text-gradient",
         },
         {
@@ -249,7 +248,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: rose,
       source_code_link: "https://github.com/",
     },
   ];
