@@ -22,9 +22,9 @@ import {
     tesla,
     toolsunited,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    united,
+    leading,
+    rose,
     threejs,
     therosa,
   } from "../assets";
@@ -228,7 +228,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: leading,
       source_code_link: "https://github.com/",
     },
     {
