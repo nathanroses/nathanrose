@@ -35,6 +35,14 @@ import leading from "./leading.png";
 import united from "./united.png";
 import therosa from "./therosa.png";
 
+import one from "./projects/one.png";
+import two from "./projects/two.png";
+import three from "./projects/three.png";
+import four from "./projects/four.png";
+import five from "./projects/five.png";
+import six from "./projects/six.png";
+import seven from "./projects/seven.png";
+
 export {
   logo,
   backend,
@@ -69,4 +77,11 @@ export {
   rose,
   leading,
   united,
+  one,
+  two,
+  three,
+  four,
+  five,
+  six,
+  seven,
 };
