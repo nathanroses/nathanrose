@@ -27,6 +27,13 @@ import {
     rose,
     threejs,
     therosa,
+    one,
+    two,
+    three,
+    four,
+    five,
+    six,
+    seven,
   } from "../assets";
   
   export const navLinks = [
@@ -190,7 +197,7 @@ import {
   
   const projects = [
     {
-      name: "Tools United",
+      name: "The Leading Edge",
       description:
         "Web-based platform that is tailord to the mold making industry. It allows users to search for tools and materials that are used in the industry.",
       tags: [
@@ -207,11 +214,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: united,
+      image: one,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Quill",
+      name: "Mocha",
       description:
         "A full SaaS Program that Enables Buisness Owners to Create Dashboards Specialized for each Company",
       tags: [
@@ -228,7 +235,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: leading,
+      image: two,
       source_code_link: "https://github.com/",
     },
     {
@@ -248,7 +255,91 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: rose,
+      image: three,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Hilink",
+      description:
+        "A full SaaS Program that Enables Buisness Owners to Create Dashboards Specialized for each Company",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: four,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "SneekPeek",
+      description:
+        "A full SaaS Program that Enables Buisness Owners to Create Dashboards Specialized for each Company",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: five,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Therosa",
+      description:
+        "A full SaaS Program that Enables Buisness Owners to Create Dashboards Specialized for each Company",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: six,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Tools United",
+      description:
+        "A full SaaS Program that Enables Buisness Owners to Create Dashboards Specialized for each Company",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: seven,
       source_code_link: "https://github.com/",
     },
   ];
