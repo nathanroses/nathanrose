@@ -34,6 +34,7 @@ import {
     five,
     six,
     seven,
+    tstyle,
   } from "../assets";
   
   export const navLinks = [
@@ -142,7 +143,7 @@ import {
     {
       title: "Full Stack Developer",
       company_name: "T-Style",
-      icon: mocha,
+      icon: tstyle,
       iconBg: "#383E56",
       date: "May 2020 - December 2020",
       points: [  "Collaborating with teams in the development of virtual reality applications, focusing on apps for MetaMask.", 
@@ -176,7 +177,7 @@ import {
       testimonial: "Nathan's work on our website was quick and efficient. Truly impressed with the outcome!",
       name: "Emma Clarke",
       designation: "CFO",
-      company: "Brighton Goods",
+      company: "Wizza Coolers LLC",
       image: "https://randomuser.me/api/portraits/women/24.jpg",
     },
     {
@@ -190,7 +191,7 @@ import {
       testimonial: "Impressed with Nathan's commitment to meeting our needs. Great job on the website revamp!",
       name: "Rachel Tan",
       designation: "CTO",
-      company: "RiverTech",
+      company: "RiverTech Inc",
       image: "https://randomuser.me/api/portraits/women/29.jpg",
     },
   ];
@@ -198,150 +199,82 @@ import {
   const projects = [
     {
       name: "The Leading Edge",
-      description:
-        "Web-based platform that is tailord to the mold making industry. It allows users to search for tools and materials that are used in the industry.",
+      description: "A cutting tool e-commerce platform, providing a diverse range of high-quality tools for the mold making industry. Features include advanced search capabilities, tool comparisons, and industry-specific recommendations.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        { name: "e-commerce", color: "blue-text-gradient" },
+        { name: "cutting-tools", color: "green-text-gradient" },
+        { name: "mold-making", color: "pink-text-gradient" },
       ],
       image: one,
       source_code_link: "https://github.com/",
     },
     {
       name: "Mocha",
-      description:
-        "A full SaaS Program that Enables Buisness Owners to Create Dashboards Specialized for each Company",
+      description: "An AI-powered PDF chatbot platform for business owners, offering a fully customizable dashboard to create and manage digital documents. Simplifies paperwork with advanced AI interactions and data insights.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        { name: "ai", color: "blue-text-gradient" },
+        { name: "pdf-management", color: "green-text-gradient" },
+        { name: "chatbot", color: "pink-text-gradient" },
       ],
       image: two,
       source_code_link: "https://github.com/",
     },
     {
       name: "Rose Development",
-      description:
-        "This is the website I created for my software development company. It is a full stack website that is built with NextJS and Supabase.",
-       tags: [ 
-        { name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+      description: "Corporate website for a multi-venture software development company, showcasing a range of services and projects. Built with NextJS and Supabase for full-stack capabilities, highlighting company's versatility and innovation.",
+      tags: [
+        { name: "corporate-site", color: "blue-text-gradient" },
+        { name: "software-development", color: "green-text-gradient" },
+        { name: "full-stack", color: "pink-text-gradient" },
       ],
       image: three,
       source_code_link: "https://github.com/",
     },
     {
       name: "Hilink",
-      description:
-        "A full SaaS Program that Enables Buisness Owners to Create Dashboards Specialized for each Company",
+      description: "A platform enhancing connectivity and collaboration in the corporate sector. Integrates various communication tools and services to streamline workflow and enhance productivity in business environments.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        { name: "connectivity", color: "blue-text-gradient" },
+        { name: "collaboration", color: "green-text-gradient" },
+        { name: "corporate-tools", color: "pink-text-gradient" },
       ],
       image: four,
       source_code_link: "https://github.com/",
     },
     {
       name: "SneekPeek",
-      description:
-        "A full SaaS Program that Enables Buisness Owners to Create Dashboards Specialized for each Company",
+      description: "An exclusive collaboration project with Vanderbilt, Dior, and Stock X, focusing on a revolutionary LED shoe design. This project combines cutting-edge technology with high fashion, creating a unique market offering.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        { name: "fashion-tech", color: "blue-text-gradient" },
+        { name: "led-shoes", color: "green-text-gradient" },
+        { name: "collaboration", color: "pink-text-gradient" },
       ],
       image: five,
       source_code_link: "https://github.com/",
     },
     {
       name: "Therosa",
-      description:
-        "A full SaaS Program that Enables Buisness Owners to Create Dashboards Specialized for each Company",
+      description: "An upscale luxury clothing company's web platform, showcasing high-end fashion collections. Offers an immersive shopping experience with high-resolution images, detailed product descriptions, and a sleek user interface.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        { name: "luxury-fashion", color: "blue-text-gradient" },
+        { name: "e-commerce", color: "green-text-gradient" },
+        { name: "high-end", color: "pink-text-gradient" },
       ],
       image: six,
       source_code_link: "https://github.com/",
     },
     {
       name: "Tools United",
-      description:
-        "A full SaaS Program that Enables Buisness Owners to Create Dashboards Specialized for each Company",
+      description: "A landmark collaboration project bringing thousands of cutting tools online. Features a comprehensive database, intuitive search functionality, and detailed tool specifications for the tool industry.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        { name: "industry-collaboration", color: "blue-text-gradient" },
+        { name: "tools-database", color: "green-text-gradient" },
+        { name: "online-tools", color: "pink-text-gradient" },
       ],
       image: seven,
       source_code_link: "https://github.com/",
     },
   ];
+  
   
   export { services, technologies, experiences, testimonials, projects };

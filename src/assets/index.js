@@ -34,6 +34,7 @@ import rose from "./rose.png";
 import leading from "./leading.png";
 import united from "./united.png";
 import therosa from "./therosa.png";
+import tstyle from "./company/tstylelogo.png";
 
 import one from "./projects/one.png";
 import two from "./projects/two.png";
@@ -84,4 +85,5 @@ export {
   five,
   six,
   seven,
+  tstyle,
 };
